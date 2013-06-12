@@ -35,6 +35,10 @@ Git basic commands:
 		delete a file 
 			git rm a.php
 
+	git mv <old name> <new name>:
+		rename a file or a folder
+			git mv a.php b.php
+
 Git info commands:
 
 	git status:
