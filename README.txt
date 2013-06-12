@@ -120,3 +120,7 @@ Git settings commands:
 	git config --global user.email "<email>":
 		set author email
 			git config --global user.email "joe.bloggs@gmail.com"
+
+	git config --global merge.tool kdiff3
+
+	git config --global mergetool.kdiff3.path "C:/kdiff3/kdiff3.exe"
