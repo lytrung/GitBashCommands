@@ -84,7 +84,7 @@ Git remote commands:
 			git push -u origin master
 
 	git push <remote> <branch>: 
-		push changes on a local tracked branch to remote
+		push changes on a local tracked branch to remote. This command only works if your local branch is not behind the remote branch
 			git push origin f3
 
 	git clone <url> <folder>:
